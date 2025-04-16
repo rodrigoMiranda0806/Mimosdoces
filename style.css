@@ -40,6 +40,7 @@ main {
     padding: 10px;
     margin: 5px;
     width: 250px;
+    align-items: center;
 }
   
 button {
@@ -47,7 +48,7 @@ button {
     border: none;
     padding: 10px 20px;
     margin-top: 10px;
-    cursor: pointer;
+    cursor: pointer; 
 }
   
 button:hover {
@@ -57,7 +58,7 @@ button:hover {
 .kits-container, .pedidos-container {
     display: grid;
     grid-template-columns: repeat(8, 1fr); /* 3 colunas */
-    gap: 1px; /* Diminui ainda mais o espaço entre os pedidos */
+    gap: 1px;
 }
   
 .kit-card, .pedido-card {
@@ -67,7 +68,7 @@ button:hover {
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     text-align: center;
     width: 220px;
-    margin: -2px; /* Margem negativa para aproximar mais os pedidos */
+    margin: 2px; 
     box-sizing: border-box;
 }
   
