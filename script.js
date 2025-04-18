@@ -127,7 +127,7 @@ function excluirPedido(index) {
 }
 
 // Carregar os kits e pedidos ao iniciar as páginas
-if (window.location.pathname.includes("kits.html")) {
+if (window.location.pathname.includes("index.html")) {
   carregarKits();
 } else if (window.location.pathname.includes("pedidos.html")) {
   carregarPedidos();
